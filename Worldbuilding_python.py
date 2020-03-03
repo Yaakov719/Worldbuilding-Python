@@ -696,9 +696,3 @@ print(f"{test} passed!")
 
 sleep(1000)
 
-# Need to work on: The "number of planets" when there's a close orbiting binary. Each star is said to have zero
-# planets, which is technically correct, but misleading.
-#
-# Also need to work on outer limits of a close orbiting binary that's in a mega-bond with a star or a binary.
-# Although it normally isn't a problem, O-type stars might have planets over 1/3 of the minimum separation of the
-# binary mega-pair.
