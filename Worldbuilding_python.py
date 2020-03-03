@@ -566,46 +566,46 @@ for i in range(10000000):  # How many times we run the program, note that trying
                     j = int(input(">>"))
                     if star_count == 1:
                         if j > len(star_list[k - 1].planet):
-                            print("THERE AIN'T THAT MANY PLANETS JIMBO\n")
+                            print("ERROR 404\n")
                         else:
                             sliv(k - 1, j - 1)
                     elif star_count == 2:
                         if system[0].orbit_type == 1:
                             if j > len(star_list[2].planet):
-                                print("THERE AIN'T THAT MANY PLANETS JIMBO\n")
+                                print("ERROR 404\n")
                             else:
                                 sliv(2, j - 1)
                         elif system[0].orbit_type == 2:
                             if j > len(star_list[k - 1].planet):
-                                print("THERE AIN'T THAT MANY PLANETS JIMBO\n")
+                                print("ERROR 404\n")
                             else:
                                 sliv(k - 1, j - 1)
                     elif star_count == 3:
                         if k == 3:
                             if j > len(star_list[2].planet):
-                                print("THERE AIN'T THAT MANY PLANETS JIMBO\n")
+                                print("ERROR 404\n")
                             else:
                                 sliv(2, j - 1)
                         elif system[0].primary.orbit_type == 1:
                             if j > len(star_list[3].planet):
-                                print("THERE AIN'T THAT MANY PLANETS JIMBO\n")
+                                print("ERROR 404\n")
                             else:
                                 sliv(3, j - 1)
                         elif system[0].primary.orbit_type == 2:
                             if j > len(star_list[k - 1].planet):
-                                print("THERE AIN'T THAT MANY PLANETS JIMBO\n")
+                                print("ERROR 404\n")
                             else:
                                 sliv(k - 1, j - 1)
                     elif star_count == 4:
                         if system[0].primary.orbit_type == 1 and system[0].secondary.orbit_type == 1:
                             if str(k) in "12":
                                 if j > len(star_list[4].planet):
-                                    print("THERE AIN'T THAT MANY PLANETS JIMBO\n")
+                                    print("ERROR 404\n")
                                 else:
                                     sliv(4, j - 1)
                             elif str(k) in "34":
                                 if j > len(star_list[5].planet):
-                                    print("THERE AIN'T THAT MANY PLANETS JIMBO\n")
+                                    print("ERROR 404\n")
                                 else:
                                     sliv(5, j - 1)
                             else:
@@ -613,12 +613,12 @@ for i in range(10000000):  # How many times we run the program, note that trying
                         elif system[0].primary.orbit_type == 1 and system[0].secondary.orbit_type == 2:
                             if str(k) in "12":
                                 if j > len(star_list[4].planet):
-                                    print("THERE AIN'T THAT MANY PLANETS JIMBO\n")
+                                    print("ERROR 404\n")
                                 else:
                                     sliv(4, j - 1)
                             elif str(k) in "34":
                                 if j > len(star_list[k - 1].planet):
-                                    print("THERE AIN'T THAT MANY PLANETS JIMBO\n")
+                                    print("ERROR 404\n")
                                 else:
                                     sliv(k - 1, j - 1)
                             else:
@@ -626,19 +626,19 @@ for i in range(10000000):  # How many times we run the program, note that trying
                         elif system[0].primary.orbit_type == 2 and system[0].secondary.orbit_type == 1:
                             if str(k) in "12":
                                 if j > len(star_list[k - 1].planet):
-                                    print("THERE AIN'T THAT MANY PLANETS JIMBO\n")
+                                    print("ERROR 404\n")
                                 else:
                                     sliv(k - 1, j - 1)
                             elif str(k) in "34":
                                 if j > len(star_list[5].planet):
-                                    print("THERE AIN'T THAT MANY PLANETS JIMBO\n")
+                                    print("ERROR 404\n")
                                 else:
                                     sliv(5, j - 1)
                             else:
                                 print("Error, please try again.")
                         elif system[0].primary.orbit_type == 2 and system[0].secondary.orbit_type == 2:
                             if j > len(star_list[k - 1].planet):
-                                print("THERE AIN'T THAT MANY PLANETS JIMBO\n")
+                                print("ERROR 404\n")
                             else:
                                 sliv(k - 1, j - 1)
                         else:
