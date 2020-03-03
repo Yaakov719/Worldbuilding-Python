@@ -158,7 +158,7 @@ def throw(x, far):
                     x.planet.insert(0, planet)
         for a in range(len(x.planet)):
             if x.planet[i_1].dist < inner or x.planet[i_1].dist < ooner or x.planet[i_1].dist > outer or \
-                    x.planet[i_1].dist > ooter:
+                    x.planet[i_1].dist > ooter or x.planet[i_1].dist > oooter:
                 del x.planet[i_1]
             else:
                 i_1 += 1
