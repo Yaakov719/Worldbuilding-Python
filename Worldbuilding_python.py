@@ -495,7 +495,9 @@ for i in range(10000000):  # How many times we run the program, note that trying
                       f" The system will ask 'Which one?' to which you can type 2 for the 2nd star in the system.\n"
                       f" Then, type 1 for the closest planet to the star, 2 for the 2nd, ETC.\n"
                       f"\n"
-                      f" You can also type '#' and select a star to get a list of orbiting planets.")
+                      f" You can also type '#' and select a star to get a list of orbiting planets.                      
+                      f"\n"
+                      f" Say 'Next' to enter the next system.")
 
             if j.lower() == "next":
                 break
